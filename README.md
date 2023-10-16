@@ -12,7 +12,7 @@ One bundled javascript file for @perawallet/connect. Currently provides version:
 Link to `perawalletconnect.min.js`, and the `PeraWalletConnect` is in `window.pera` object:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/applynker/perawalletconnect-cdn/dist/1.3.3/perawalletconnect.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/applynker/perawalletconnect-cdn@1.3.3/dist/perawalletconnect.min.js"></script>
 <script>
 // ...
 const peraWallet = new pera.PeraWalletConnect()
@@ -35,9 +35,9 @@ import { PeraWalletConnect } from "..." // this will not work
 1) Import from an absolute url
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/applynker/perawalletconnect-cdn/dist/1.3.3/perawalletconnect.esm.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/applynker/perawalletconnect-cdn@1.3.3/dist/perawalletconnect.esm.min.js"></script>
 <script type="module">
-import pera from "https://cdn.jsdelivr.net/gh/applynker/perawalletconnect-cdn/dist/1.3.3/perawalletconnect.esm.min.js"
+import pera from "https://cdn.jsdelivr.net/gh/applynker/perawalletconnect-cdn@1.3.3/dist/perawalletconnect.esm.min.js"
 
 const peraWallet = new pera.PeraWalletConnect()
 </script>
@@ -49,7 +49,7 @@ const peraWallet = new pera.PeraWalletConnect()
 <script type="importmap">
 {
 	"imports": {
-		"@perawallet/connect": "https://cdn.jsdelivr.net/gh/applynker/perawalletconnect-cdn/dist/1.3.3/perawalletconnect.esm.min.js"
+		"@perawallet/connect": "https://cdn.jsdelivr.net/gh/applynker/perawalletconnect-cdn@1.3.3/dist/perawalletconnect.esm.min.js"
 	}
 }
 </script>
