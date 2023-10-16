@@ -1,5 +1,5 @@
 package:
-	npm install @perawallet/connect
+	npm install @perawallet/connect@1.3.3
 build:
 	esbuild src/perawalletconnect.mjs --bundle --platform=browser --define:global=window --outfile=dist/perawalletconnect.js
 	minify dist/perawalletconnect.js -o dist/perawalletconnect.min.js
