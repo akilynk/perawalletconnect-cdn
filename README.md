@@ -1,6 +1,6 @@
 # perawalletconnect-cdn
 
-One bundled javascript file for @perawallet/connect. Currently provides version:
+One bundled javascript file for [@perawallet/connect](https://github.com/perawallet/connect). Currently it provides version:
 
 * 1.3.3
 
