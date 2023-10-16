@@ -7,7 +7,7 @@ One bundled javascript file for [@perawallet/connect](https://github.com/perawal
 
 ## Usage
 
-### 1) Using Vanilla Javascript
+### Method 1) Using Vanilla Javascript
 
 Link to `perawalletconnect.min.js`, and the `PeraWalletConnect` is in `window.pera` object:
 
@@ -19,7 +19,7 @@ const peraWallet = new pera.PeraWalletConnect()
 </script>
 ```
 
-### 2) Using ES Module
+### Method 2) Using ES Module
 
 Link to `perawalletconnect.esm.min.js`. and with this esm js file, you can only use the default import way, not named import, for example:
 
@@ -73,6 +73,15 @@ After this,  you can build and generate the minified files:
 
 1. Install `@perawallet/connect` with npm, or use `make package`
 1. Build: `make build`
+
+
+## Release a new version
+
+1. Change the version number in Makefile's "package" command, e.g. 1.3.3 to 1.3.4
+1. `make package && make build`
+1. Commit to main
+1. Make a tag and push
+
 
 ## About
 
