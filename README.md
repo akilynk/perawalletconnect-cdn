@@ -32,25 +32,25 @@ const peraWallet = pera.PeraWalletConnect()
 import { PeraWalletConnect } from "..." // this will not work
 ```
 
-1) Import from an absolute url
+Method 1) Import from an absolute url
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/applynker/perawalletconnect-cdn@1.3.3/dist/perawalletconnect.esm.min.js"></script>
 <script type="module">
 import pera from "https://cdn.jsdelivr.net/gh/applynker/perawalletconnect-cdn@1.3.3/dist/perawalletconnect.esm.min.js"
-
+// ...
 const peraWallet = new pera.PeraWalletConnect()
 </script>
 ```
 
-2) Import with `importmap`:
+Method 2) Import with `importmap`:
 
 ```html
 <script type="importmap">
 {
-	"imports": {
-		"@perawallet/connect": "https://cdn.jsdelivr.net/gh/applynker/perawalletconnect-cdn@1.3.3/dist/perawalletconnect.esm.min.js"
-	}
+  "imports": {
+    "@perawallet/connect": "https://cdn.jsdelivr.net/gh/applynker/perawalletconnect-cdn@1.3.3/dist/perawalletconnect.esm.min.js"
+  }
 }
 </script>
 <script type="module">
