@@ -35,7 +35,6 @@ import { PeraWalletConnect } from "..." // this will not work
 Method 1) Import from an absolute url
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/applynker/perawalletconnect-cdn@1.3.3/dist/perawalletconnect.esm.min.js"></script>
 <script type="module">
 import pera from "https://cdn.jsdelivr.net/gh/applynker/perawalletconnect-cdn@1.3.3/dist/perawalletconnect.esm.min.js"
 // ...
